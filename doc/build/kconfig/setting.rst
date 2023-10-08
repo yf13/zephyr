@@ -149,7 +149,7 @@ used.
 
    3. From the CMake variable cache
 
-2. Otherwise if ``CONF_FILE`` is set, and a single configuration file of the
+2. Otherwise if ``CONF_FILE`` is not set, and a single configuration file of the
    form :file:`prj_<build>.conf` is used, then if file
    :file:`boards/<BOARD>_<build>.conf` exists in same folder as file
    :file:`prj_<build>.conf`, the result of merging :file:`prj_<build>.conf` and
